@@ -16,6 +16,8 @@ La respiración se define como el proceso de intercambio gaseoso en las células
 <img width="150" height="300" alt="image" src="https://github.com/user-attachments/assets/3f0d7b67-e1f7-476d-a979-71a44ba5f7af" />
 
 
-<img src="https://github.com/user-attachments/assets/3f0d7b67-e1f7-476d-a979-71a44ba5f7af" align="left" width="200" />
+<img src="https://github.com/user-attachments/assets/3f0d7b67-e1f7-476d-a979-71a44ba5f7af" align="right" width="200" />
+
 **Exhalación:** En la fase de exhalación, el diafragma y los músculos intercostales se relajan, reduciendo el espacio de cavidad torácica. A medida que dicha cavidad disminuye en tamaño, los pulmones se "desinflan" y el aire con dioxido de carbono sale de los pulmones por la tráquea, exhalando por la nariz o la boca.
-<br clear="left" /> <!-- Limpia el flujo para el siguiente contenido -->
+
+<br clear="right" /> <!-- Limpia el flujo para el siguiente contenido -->
