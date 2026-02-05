@@ -16,3 +16,8 @@ La respiración se define como el proceso de intercambio gaseoso en las células
 <div align="center">
 <img width="150" height="300" alt="image" src="https://github.com/user-attachments/assets/3f0d7b67-e1f7-476d-a979-71a44ba5f7af" />
 </div>
+
+# REFERENCIAS:
+
+- https://www.nhlbi.nih.gov/es/salud/pulmones/beneficios
+- https://www.cun.es/diccionario-medico/terminos/respiracion
