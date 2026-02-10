@@ -17,6 +17,22 @@ La respiración se define como el proceso de intercambio gaseoso en las células
 <img width="150" height="300" alt="image" src="https://github.com/user-attachments/assets/3f0d7b67-e1f7-476d-a979-71a44ba5f7af" />
 </div>
 
+# Variables físicas presentes en el proceso de respiración:
+
+Teniendo en cuenta que la inhalación consiste en el llenado de aire en los pulmones y la exhalación en el retiro del mismo luego de un intercambio gaseoso, existen unas variables físicas que cambian segun la situación del organismo. Estas variables son la presión, el flujo y el volumen.
+
+**Presión:**
+La presión supone la fuerza que ejerce el aire sobre las paredes de los conductos respiratorios y en los alveolos, que son los pequeños sacos de aire en los pulmones donde sucede el intercambio de gases. Esta es muy importante para que el aire se mueva dentro y fuera de los pulmones.
+
+**Flujo:**
+El flujo se refiere a la cantidad de aire que circula dentro y fuera de los pulomnes, de acuerdo a una unidad de tiempo dada en Litros/segundos. Este flujo es importante para una ventilación eficiente, lo que asegura un buen intercambio de oxigeno y dióxido de carbono en los pulmones.
+
+**Volumen:**
+El volumen en el proceso de la respiración es la cantidad de aire que fluye en los pulmones de acuerdo a cada respiración, lo que proporciona información para conocer la capacidad respiratoria total y el funcionamiento de los pulmones. El volumen pulmonar se expresa de diferentes maneras, las cuales son:
+
+
+
+
 # REFERENCIAS:
 
 - https://www.nhlbi.nih.gov/es/salud/pulmones/beneficios
