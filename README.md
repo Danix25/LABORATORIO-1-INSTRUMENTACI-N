@@ -1,5 +1,6 @@
 # LABORATORIO-1-INSTRUMENTACIÓN
 
+## Parte A
 # PROCESO RESPIRATORIO
 
 La respiración se define como el proceso de intercambio gaseoso en las células. Esta se compone de dos fases: inhalación y exhalación.
