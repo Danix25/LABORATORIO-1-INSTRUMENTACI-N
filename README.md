@@ -66,6 +66,9 @@ Este sensor se adaptará al sujeto de prueba mediante el uso de una liga de cauc
 <img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/05fbc9c4-d8f0-4bbd-ae4e-3b1c0fe507f5" />
 </div>
 
+
+## Parte B
+
 # REFERENCIAS:
 
 - https://www.nhlbi.nih.gov/es/salud/pulmones/beneficios
