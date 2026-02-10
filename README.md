@@ -26,7 +26,7 @@ Teniendo en cuenta que la inhalación consiste en el llenado de aire en los pulm
 La presión supone la fuerza que ejerce el aire sobre las paredes de los conductos respiratorios y en los alveolos, que son los pequeños sacos de aire en los pulmones donde sucede el intercambio de gases. Esta es muy importante para que el aire se mueva dentro y fuera de los pulmones.
 
 <div align="center">
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/e1f4d9c4-21b5-4088-b3e4-4e2fc5c94da0" />
+<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/e1f4d9c4-21b5-4088-b3e4-4e2fc5c94da0" />
 </div>
 
 **Flujo:**
@@ -34,7 +34,7 @@ La presión supone la fuerza que ejerce el aire sobre las paredes de los conduct
 El flujo se refiere a la cantidad de aire que circula dentro y fuera de los pulomnes, de acuerdo a una unidad de tiempo dada en Litros/segundos. Este flujo es importante para una ventilación eficiente, lo que asegura un buen intercambio de oxigeno y dióxido de carbono en los pulmones.
 
 <div align="center">
-<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/d8641100-de92-479b-abaa-90efee17b583" />
+<img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/d8641100-de92-479b-abaa-90efee17b583" />
 </div>
 
 **Volumen:**
@@ -42,7 +42,7 @@ El flujo se refiere a la cantidad de aire que circula dentro y fuera de los pulo
 El volumen en el proceso de la respiración es la cantidad de aire que fluye en los pulmones de acuerdo a cada respiración, lo que proporciona información para conocer la capacidad respiratoria total y el funcionamiento de los pulmones. El volumen pulmonar se expresa de diferentes maneras, las cuales son:
 
 <div align="center">
-<img width="800" height="400" alt="image" src="https://github.com/user-attachments/assets/a649f2b3-17c0-48b3-9768-d34f6d5e32dc" />
+<img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/a649f2b3-17c0-48b3-9768-d34f6d5e32dc" />
 </div>
 
 - **Volumen Tidal:** Es el cantidad de aire que se inhala o exhala en una respiración normal en reposo.
@@ -56,13 +56,13 @@ El volumen en el proceso de la respiración es la cantidad de aire que fluye en 
 Para llevar a cabo la práctica y poder capturar la señal respiratoria, se usó una galga extensiométrica FSR402 (Force Sensing Resistor), un sensor de tipo pasivo de dos hilos que exhibe una disminución en la resistencia cuando hay un aumento en la fuerza aplicada a la zona activa. Esto permite que el sensor sea capaz de detectar la presión o la fuerza. El sensor tiene una activación de fuerza de 0.2 N y un rango de sensibilidad de fuerza entre 0.2 N y 20 N.
 
 <div align="center">
-<img width="277" height="92" alt="image" src="https://github.com/user-attachments/assets/137f464f-ea49-474b-b991-c82ec61eb373" />
+<img width="200" height="92" alt="image" src="https://github.com/user-attachments/assets/137f464f-ea49-474b-b991-c82ec61eb373" />
 </div>
 
 Este sensor se adaptará al sujeto de prueba mediante el uso de una liga de caucho ubicada en el pecho. En esta liga estará el FSR y a medida que el paciente respire, se capturará los momentos en que inhala y exhala, obteniendo graficamente la señal respiratoria.
 
 <div align="center">
-<img width="444" height="144" alt="image" src="https://github.com/user-attachments/assets/05fbc9c4-d8f0-4bbd-ae4e-3b1c0fe507f5" />
+<img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/05fbc9c4-d8f0-4bbd-ae4e-3b1c0fe507f5" />
 </div>
 
 # REFERENCIAS:
