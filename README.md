@@ -71,6 +71,17 @@ Este sensor se adaptará al sujeto de prueba mediante el uso de una liga de cauc
 
 ## Parte B
 
+
+# Parte C
+**Procedimiento de la práctica:**
+
+1. *Investigación teórica:* En primer lugar, se investigaron como es el proceso de respiración y cuales son las variables que influyen en él.
+2. *Elección de sensor:* Luego de conocer las variables que influyen en el proceso de respiración, se conversó entre los integrantes del grupo que sensor utilizar para el desarrollo de la práctica, teniendo como principal objetivo el capturar la señal respiratoria de una persona.
+3. *Diseño e implementación:* A partir del sensor seleccionado, se discutió la manera de implementación y como adaptarlo al sujeto de prueba. Aquí se definió usar una liga de caucho con el sensor y ubicarlo en el pecho para medir la presión ejercida mientras inhala y exhala.
+4. *Elaboración del sistema:*
+5. *Captura de la señal:* Luego de elaborar y acondicionar el sistema para capturar la señal respiratoria, se coloca el dispositivo en el paciente, se toman lecturas de acuerdo al tiempo deseado y se pide al paciente que esté en reposo o hablando/leyendo.
+6. 
+
 # REFERENCIAS:
 
 - https://www.nhlbi.nih.gov/es/salud/pulmones/beneficios
