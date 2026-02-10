@@ -59,7 +59,7 @@ Para llevar a cabo la práctica y poder capturar la señal respiratoria, se usó
 <img width="277" height="92" alt="image" src="https://github.com/user-attachments/assets/137f464f-ea49-474b-b991-c82ec61eb373" />
 </div>
 
-Este sensor permitirá medir la presión ejercida en el pecho conforme el paciente inhala o exhala y así visualizar graficamente la señal respiratoria   
+Este sensor se adaptará al sujeto de prueba mediante el uso de una liga de caucho ubicada en el pecho. En esta liga estará el FSR y a medida que el paciente respire, se capturará los momentos en que inhala y exhala, obteniendo graficamente la señal respiratoria.
 
 <div align="center">
 <img width="444" height="144" alt="image" src="https://github.com/user-attachments/assets/05fbc9c4-d8f0-4bbd-ae4e-3b1c0fe507f5" />
