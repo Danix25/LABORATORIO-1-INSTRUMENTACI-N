@@ -56,9 +56,10 @@ El volumen en el proceso de la respiración es la cantidad de aire que fluye en 
 
 Para llevar a cabo la práctica y poder capturar la señal respiratoria, se usó una galga extensiométrica FSR402 (Force Sensing Resistor), un sensor de tipo pasivo de dos hilos que exhibe una disminución en la resistencia cuando hay un aumento en la fuerza aplicada a la zona activa. Esto permite que el sensor sea capaz de detectar la presión o la fuerza. El sensor tiene una activación de fuerza de 0.2 N y un rango de sensibilidad de fuerza entre 0.2 N y 20 N.
 
-
-<img width="200" height="92" alt="image" src="https://github.com/user-attachments/assets/137f464f-ea49-474b-b991-c82ec61eb373" />
+<div align="center">
+<img width="300" height="100" alt="image" src="https://github.com/user-attachments/assets/137f464f-ea49-474b-b991-c82ec61eb373" />
 <img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/05fbc9c4-d8f0-4bbd-ae4e-3b1c0fe507f5" />
+</div>
 
 Este sensor se adaptará al sujeto de prueba mediante el uso de una liga de caucho ubicada en el pecho. En esta liga estará el FSR y a medida que el paciente respire, se capturará los momentos en que inhala y exhala, obteniendo graficamente la señal respiratoria.
 
