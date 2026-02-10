@@ -1,4 +1,4 @@
-# LABORATORIO 1, Monitoreo del patrón y frecuencia respiratoria
+# Monitoreo del patrón y frecuencia respiratoria
 
 ## Parte A
 # PROCESO RESPIRATORIO
