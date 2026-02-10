@@ -35,7 +35,7 @@ El volumen en el proceso de la respiración es la cantidad de aire que fluye en 
 
 - **Volumen Tidal:** Es el cantidad de aire que se inhala o exhala en una respiración normal en reposo.
 - **Volumen de reserva inspiratoria:** Es el volumen de aire que se puede inhalar adicionalmente, luego de una inhalación normal.
-- **Volumen de reserva espiratoria:**Es la cantidad de aire que se puede exhalar adicionalmente despues de una exhalación normal.
+- **Volumen de reserva espiratoria:** Es la cantidad de aire que se puede exhalar adicionalmente despues de una exhalación normal.
 - **Volumen residual:** Se refiere al volumen de aire que permanece en los pulmones luego de una exhalación máxima.
 
 
@@ -43,3 +43,4 @@ El volumen en el proceso de la respiración es la cantidad de aire que fluye en 
 
 - https://www.nhlbi.nih.gov/es/salud/pulmones/beneficios
 - https://www.cun.es/diccionario-medico/terminos/respiracion
+- https://www.mafemedical.com/blog/variables-proceso-de-respiracion-humana/
