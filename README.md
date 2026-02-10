@@ -50,9 +50,25 @@ El volumen en el proceso de la respiración es la cantidad de aire que fluye en 
 - **Volumen de reserva espiratoria:** Es la cantidad de aire que se puede exhalar adicionalmente despues de una exhalación normal.
 - **Volumen residual:** Se refiere al volumen de aire que permanece en los pulmones luego de una exhalación máxima.
 
+# MONTAJE EXPERIMENTAL
+ **Sensor implementado (FSR402):**
+
+Para llevar a cabo la práctica y poder capturar la señal respiratoria, se usó una galga extensiométrica FSR402 (Force Sensing Resistor), un sensor de tipo pasivo de dos hilos que exhibe una disminución en la resistencia cuando hay un aumento en la fuerza aplicada a la zona activa. Esto permite que el sensor sea capaz de detectar la presión o la fuerza. El sensor tiene una activación de fuerza de 0.2 N y un rango de sensibilidad de fuerza entre 0.2 N y 20 N.
+
+<div align="center">
+<img width="277" height="92" alt="image" src="https://github.com/user-attachments/assets/137f464f-ea49-474b-b991-c82ec61eb373" />
+</div>
+
+Este sensor permitirá medir la presión ejercida en el pecho conforme el paciente inhala o exhala y así visualizar graficamente la señal respiratoria   
+
+<div align="center">
+<img width="444" height="144" alt="image" src="https://github.com/user-attachments/assets/05fbc9c4-d8f0-4bbd-ae4e-3b1c0fe507f5" />
+</div>
 
 # REFERENCIAS:
 
 - https://www.nhlbi.nih.gov/es/salud/pulmones/beneficios
 - https://www.cun.es/diccionario-medico/terminos/respiracion
 - https://www.mafemedical.com/blog/variables-proceso-de-respiracion-humana/
+- https://www.mactronica.com.co/sensor-de-fuerza-resistivo-fsr402
+- https://files.seeedstudio.com/wiki/Grove-Round_Force_Sensor_FSR402/res/FSR402.pdf
