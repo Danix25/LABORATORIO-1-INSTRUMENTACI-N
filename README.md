@@ -3,16 +3,16 @@
 # Parte A
 # PROCESO RESPIRATORIO
 
-La respiración se define como el proceso de intercambio gaseoso en las células. Esta se compone de dos fases: inhalación y exhalación.
+La respiración se define como el proceso mediante el cual se lleva a cabo el intercambio gaseoso a nivel celular, permitiendo la captación de oxígeno y la eliminación de dióxido de carbono. Desde el punto de vista fisiológico, este proceso comprende dos fases mecánicas principales: inhalación y exhalación.
 
-**Inhalación:** En la fase de inhalación, el diafragma se contrae y se mueve hacía abajo, aumentando el espacio en la cavidad torácica y expandiendo los pulmones dentro de la misma. Del mismo modo, los músculos intercostales ayudan a aumentar el tamaño de la cavidad torácica, de tal manera que se contraen con el objetivo de empujar la caja torácica hacia arriba cuando una persona inhala.
+**Inhalación:** En la fase de inhalación, el diafragma se contrae y desciende, aumentando el volumen de la cavidad torácica, favoreciendo la expansión pulmonar. De manera complementaria, los músculos intercostales se contraen, produciendo la elevación de la caja torácica y contribuyendo al aumento de dicho volumen. Este cambio volumétrico facilita la entrada de aire hacia los pulmones, permitiendo que se lleve a cabo el intercambio gaseoso en los alvéolos.
 
 <div align="center">
   <img width="150" height="300" alt="image" src="https://github.com/user-attachments/assets/f2c14958-d8ee-480a-a226-2d600a6321a6" />
 </div>
 
 
-**Exhalación:** En la fase de exhalación, el diafragma y los músculos intercostales se relajan, reduciendo el espacio de cavidad torácica. A medida que dicha cavidad disminuye en tamaño, los pulmones se "desinflan" y el aire con dióxido de carbono sale de los pulmones por la tráquea, exhalando por la nariz o la boca.
+**Exhalación:** En la fase de exhalación, el diafragma y los músculos intercostales se relajan, lo que genera una disminución del volumen de la cavidad torácica. omo consecuencia, los pulmones reducen su expansión y el aire que contiene dióxido de carbono es expulsado a través de la tráquea, saliendo por la nariz o la boca. En condiciones fisiológicas normales, este proceso ocurre de manera pasiva debido a la relajación muscular y a las propiedades elásticas del tejido pulmonar.
 
 <div align="center">
 <img width="150" height="300" alt="image" src="https://github.com/user-attachments/assets/3f0d7b67-e1f7-476d-a979-71a44ba5f7af" />
