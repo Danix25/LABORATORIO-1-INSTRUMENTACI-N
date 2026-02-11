@@ -82,6 +82,9 @@ Este sensor se adaptará al sujeto de prueba mediante el uso de una liga de cauc
 5. *Captura de la señal:* Luego de elaborar y acondicionar el sistema para capturar la señal respiratoria, se coloca el dispositivo en el paciente, se toman lecturas de acuerdo al tiempo deseado y se pide al paciente que esté en reposo o hablando/leyendo.
 6. 
 
+# ANÁLISIS DE RESULTADOS
+
+
 # REFERENCIAS:
 
 - https://www.nhlbi.nih.gov/es/salud/pulmones/beneficios
