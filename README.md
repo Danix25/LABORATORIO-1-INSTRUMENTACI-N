@@ -84,6 +84,8 @@ Este sensor se adaptará al sujeto de prueba mediante el uso de una liga de cauc
 
 # ANÁLISIS DE RESULTADOS
 
+- ¿Son los patrones respiratorios y frecuencias respiratorias iguales o diferentes en cada caso? ¿A qué se debe esto?
+- ¿Cuáles serían las ventajas y desventajas de emplear múltiples sensores para el monitoreo del proceso respiratorio? ¿Cuáles podrían ser las razones?
 
 # REFERENCIAS:
 
