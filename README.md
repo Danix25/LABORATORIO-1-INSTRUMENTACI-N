@@ -91,6 +91,10 @@ Este sensor será adaptado al sujeto de prueba mediante el uso de un cinturón c
 
 El uso de múltiples sensores en un sistema de monitoreo presenta tanto ventajas como limitaciones. Entre las principales **ventajas** se destaca la mayor *fiabilidad*, ya que ante la falla de uno de los dispositivos, los sensores restantes pueden mantener la continuidad del registro. Asimismo, la implementación de múltiples fuentes de medición puede mejorar la *calidad* de la señal, debido a la posible reducción de ruido y a la complementariedad de la información adquirida, lo que favorece una representación más *precisa* del fenómeno fisiológico y una mejor validación de los resultados. Adicionalmente, esta estrategia puede ampliar el *alcance clínico* del monitoreo, al facilitar la detección de alteraciones o patrones asociados a patologías de mayor complejidad.
 
+<div align="center">
+<img width="612" height="612" alt="image" src="https://github.com/user-attachments/assets/d1e5e046-9afc-4ecb-a0b6-6b439529dd38" />
+</div>
+
 En cuanto a las **desventajas**, se encuentra el *incremento en los costos*, dado que se requiere una mayor inversión en dispositivos, sistemas de adquisición y consumo energético. Además, la *sincronización* de múltiples sensores introduce una complejidad adicional, especialmente cuando las señales provienen de diferentes fuentes con tasas de muestreo distintas, lo que exige una alineación temporal adecuada. También debe considerarse la *incomodidad para el paciente*, ya que la incorporación de varios sensores puede generar mayor estrés o interferencia, afectando parámetros fisiológicos como el ritmo respiratorio. Finalmente, el manejo de múltiples señales implica una *mayor complejidad* en el procesamiento de datos, requiriendo mayor capacidad computacional y el uso de algoritmos de fusión para integrar adecuadamente la información proveniente de cada sensor. 
 
 # CONCLUSIONES
