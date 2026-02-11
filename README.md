@@ -20,11 +20,11 @@ La respiración se define como el proceso de intercambio gaseoso en las células
 
 # Variables físicas presentes en el proceso de respiración:
 
-Teniendo en cuenta que la inhalación consiste en el llenado de aire en los pulmones y la exhalación en el retiro del mismo luego de un intercambio gaseoso, existen unas variables físicas que cambian según la situación del organismo. Estas variables son la presión, el flujo y el volumen.
+Considerando que la inhalación corresponde al ingreso de aire hacia los pulmones y la exhalación a su expulsión posterior al intercambio gaseoso, durante el proceso respiratorio se presentan variaciones en determinadas variables físicas en función del estado del organismo. Dichas variables son: La presión, el flujo y el volumen.
 
 **Presión:**
 
-La presión supone la fuerza que ejerce el aire sobre las paredes de los conductos respiratorios y en los alveolos, que son los pequeños sacos de aire en los pulmones donde sucede el intercambio de gases. Esta es muy importante para que el aire se mueva dentro y fuera de los pulmones.
+La presión se define como la fuerza ejercida por el aire sobre las paredes de las vías respiratorias y sobre los avéolos, estructuras de los pulmones donde ocurre el intercambio gaseoso. Esta variable es fundamental para generar el gradiente necesario que permite el desplazamiento del aire hacia el interior y el exterior de los pulmones.
 
 <div align="center">
 <img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/e1f4d9c4-21b5-4088-b3e4-4e2fc5c94da0" />
@@ -32,7 +32,7 @@ La presión supone la fuerza que ejerce el aire sobre las paredes de los conduct
 
 **Flujo:**
 
-El flujo se refiere a la cantidad de aire que circula dentro y fuera de los pulomnes, de acuerdo a una unidad de tiempo dada en Litros/segundos. Este flujo es importante para una ventilación eficiente, lo que asegura un buen intercambio de oxigeno y dióxido de carbono en los pulmones.
+El flujo corresponde a la cantidad de aire que se moviliza hacia dentro y fuera de los pulmones por unidad de tiempo, y se expresa en litros por segundo (L/s). Esta variable es determinante para garantizar una ventilación eficiente, asegurando un adecuado intercambio de oxígeno y dióxido de carbono.
 
 <div align="center">
 <img width="150" height="150" alt="image" src="https://github.com/user-attachments/assets/d8641100-de92-479b-abaa-90efee17b583" />
@@ -40,16 +40,16 @@ El flujo se refiere a la cantidad de aire que circula dentro y fuera de los pulo
 
 **Volumen:**
 
-El volumen en el proceso de la respiración es la cantidad de aire que fluye en los pulmones de acuerdo a cada respiración, lo que proporciona información para conocer la capacidad respiratoria total y el funcionamiento de los pulmones. El volumen pulmonar se expresa de diferentes maneras, las cuales son:
+El volumen en el proceso de la respiración es la cantidad de aire que fluye en los pulmones de acuerdo a cada respiración, lo que proporciona información para conocer la capacidad respiratoria total y el funcionamiento pulmonar. El volumen pulmonar se clasifica en:
 
 <div align="center">
 <img width="300" height="150" alt="image" src="https://github.com/user-attachments/assets/a649f2b3-17c0-48b3-9768-d34f6d5e32dc" />
 </div>
 
-- **Volumen Tidal:** Es el cantidad de aire que se inhala o exhala en una respiración normal en reposo.
-- **Volumen de reserva inspiratoria:** Es el volumen de aire que se puede inhalar adicionalmente, luego de una inhalación normal.
-- **Volumen de reserva espiratoria:** Es la cantidad de aire que se puede exhalar adicionalmente despues de una exhalación normal.
-- **Volumen residual:** Se refiere al volumen de aire que permanece en los pulmones luego de una exhalación máxima.
+- **Volumen Tidal:** Cantidad de aire inhalada o exhalada durante una respiración normal en reposo.
+- **Volumen de reserva inspiratoria:** Volumen adicional de aire que puede inhalarse adicionalmente, luego de una inhalación normal.
+- **Volumen de reserva espiratoria:** Volumen adicional de aire que puede exhalarse adicionalmente despues de una exhalación normal.
+- **Volumen residual:** Volumen de aire que permanece en los pulmones después de una exhalación máxima.
 
 # MONTAJE EXPERIMENTAL
  **Sensor implementado (FSR402):**
