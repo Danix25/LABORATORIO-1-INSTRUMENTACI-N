@@ -18,7 +18,7 @@ La respiración se define como el proceso mediante el cual se lleva a cabo el in
 <img width="150" height="300" alt="image" src="https://github.com/user-attachments/assets/3f0d7b67-e1f7-476d-a979-71a44ba5f7af" />
 </div>
 
-# Variables físicas presentes en el proceso de respiración:
+### Variables físicas presentes en el proceso de respiración:
 
 Considerando que la inhalación corresponde al ingreso de aire hacia los pulmones y la exhalación a su expulsión posterior al intercambio gaseoso, durante el proceso respiratorio se presentan variaciones en determinadas variables físicas en función del estado del organismo. Dichas variables son: La presión, el flujo y el volumen.
 
