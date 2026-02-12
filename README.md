@@ -297,6 +297,18 @@ Finalmente, se grafican tanto las señales filtradas en el tiempo como sus espec
 <img width="500" height="600" alt="Captura de pantalla 2026-02-11 214209" src="https://github.com/user-attachments/assets/e8ed05ea-0978-42c6-8aef-79ce63c5bd06" />
 </div>
 
+<div align="center">
+<img width="500" height="614" alt="Captura de pantalla 2026-02-11 214221" src="https://github.com/user-attachments/assets/17168115-cf04-420a-be2d-1fa5dfea350b" />
+</div>
+
+$$
+Frecuencia respiratoria (Reposo) = 10.24 rpm
+$$
+
+$$
+Frecuencia respiratoria (Hablando) = 12.43 rpm
+$$
+
 
 
 ## Parte C
