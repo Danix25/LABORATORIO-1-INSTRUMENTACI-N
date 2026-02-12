@@ -77,17 +77,17 @@ $$
 V_{out} = V_{cc} \cdot \frac{R_{Fout}}{R_{Fout} + R_{FSR} + R_{fin}}
 $$
 
-Donde:
+$$
+\text{Rango de resistencias: } R_{FSR}, R_{Fout} = 3\,k\Omega, R_{fin} = 300\,\Omega
+$$
 
-- \(R_{FSR}\) es la resistencia del sensor.
-- \(R_{Fout} = 3\,k\Omega\) es la resistencia fija de salida.
-- \(R_{fin} = 300\,\Omega\) es la resistencia en serie para limitar la corriente.
+$$
+\text{Si } R_{FSR} \text{ aumenta} \Rightarrow V_{out} \text{ disminuye}
+$$
 
-**Comportamiento:**
-
-- Si \(R_{FSR}\) aumenta → \(V_{out}\) disminuye.
-- Si \(R_{FSR}\) disminuye → \(V_{out}\) aumenta.
-
+$$
+\text{Si } R_{FSR} \text{ disminuye} \Rightarrow V_{out} \text{ aumenta}
+$$
 
 ## Parte B
 ### Adquisición
