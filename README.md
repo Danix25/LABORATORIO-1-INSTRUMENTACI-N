@@ -89,18 +89,23 @@ $$
 \text{Si } R_{FSR} \text{ disminuye} \Rightarrow V_{out} \text{ aumenta}
 $$
 
-Posteriormente, el voltaje de salida del divisor de voltaje es medido por el ADC de un microcontrolador, específicamente un ESP32. Este microcontrolador, mediante comunicación serial, transmite los datos hacia un PC, donde se realiza la adquisición y procesamiento de las señales utilizando MATLAB.
+Posteriormente, el voltaje de salida del divisor de voltaje es medido por el ADC del ESP32. La señal se muestrea cada 10 ms, lo que corresponde a una frecuencia de muestreo de 100 Hz. Luego, el microcontrolador envía los datos por comunicación serial hacia el PC, donde se realiza la adquisición y el procesamiento de la señal utilizando MATLAB.
 ```cpp
+unsigned long t_actual;
+unsigned long t_previo = 0;
+int intervalo = 10;
+
 void setup() {
   Serial.begin(115200);
 }
-
 float v;
-
 void loop() {
-  v = analogRead(34);
-  Serial.println(v);  
-  delay(10);
+  t_actual = millis();
+  if (t_actual - t_previo >= intervalo){
+    t_previo = t_actual;
+    v = analogRead(34);
+    Serial.println(v);
+  }
 }
 ```
 <div align="center">
