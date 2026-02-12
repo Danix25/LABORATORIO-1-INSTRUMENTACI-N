@@ -363,13 +363,18 @@ En el caso de hablando, la señal presenta un patrón distinto, ya no se asemeja
 3. *Diseño e implementación:* A partir del sensor seleccionado, se discutió la manera de implementación y como adaptarlo al sujeto de prueba. Aquí se definió usar una liga de caucho con el sensor y ubicarlo en el pecho para medir la presión ejercida mientras inhala y exhala.
 4. *Elaboración del sistema:*
 5. *Captura de la señal:* Luego de elaborar y acondicionar el sistema para capturar la señal respiratoria, se coloca el dispositivo en el paciente, se toman lecturas de acuerdo al tiempo deseado y se pide al paciente que esté en reposo o hablando/leyendo.
-6. 
 
 ### ANÁLISIS DE RESULTADOS
 
 - **¿Son los patrones respiratorios y frecuencias respiratorias iguales o diferentes en cada caso? ¿A qué se debe esto?**
 
-  
+No son iguales, y eso se puede ver tanto en la forma de la señal como en la frecuencia obtenida.
+En reposo, el patrón respiratorio es más regular y casi periódico. La señal presenta oscilaciones suaves y relativamente simétricas entre inhalación y exhalación, lo que indica un ritmo estable. 
+
+La frecuencia calculada fue de 10.24 rpm, un valor coherente con un estado de relajación, donde el cuerpo no tiene una demanda elevada de oxígeno.
+En cambio, durante la toma hablando el patrón cambia notablemente. La señal deja de verse tan uniforme y se vuelve más irregular. Se observa que la inhalación ocurre de manera más rápida, mientras que la exhalación es más prolongada, ya que el aire se utiliza para producir la voz. Esto altera la relación entre inspiración y espiración y modifica la forma de la onda. Además, la frecuencia aumentó a 12.43 rpm, lo que indica una mayor actividad respiratoria.
+Estas diferencias se deben a que la respiración no solo cumple una función metabólica, sino que también se adapta a otras funciones como el habla. Cuando una persona habla, necesita controlar el flujo de aire durante la exhalación para mantener la fonación, lo que cambia tanto el patrón como la frecuencia respiratoria respecto al estado de reposo.
+    
 - **¿Cuáles serían las ventajas y desventajas de emplear múltiples sensores para el monitoreo del proceso respiratorio? ¿Cuáles podrían ser las razones?**
 
 El uso de múltiples sensores en un sistema de monitoreo presenta tanto ventajas como limitaciones. Entre las principales **ventajas** se destaca la mayor *fiabilidad*, ya que ante la falla de uno de los dispositivos, los sensores restantes pueden mantener la continuidad del registro. Asimismo, la implementación de múltiples fuentes de medición puede mejorar la *calidad* de la señal, debido a la posible reducción de ruido y a la complementariedad de la información adquirida, lo que favorece una representación más *precisa* del fenómeno fisiológico y una mejor validación de los resultados. Adicionalmente, esta estrategia puede ampliar el *alcance clínico* del monitoreo, al facilitar la detección de alteraciones o patrones asociados a patologías de mayor complejidad.
@@ -380,8 +385,28 @@ El uso de múltiples sensores en un sistema de monitoreo presenta tanto ventajas
 
 En cuanto a las **desventajas**, se encuentra el *incremento en los costos*, dado que se requiere una mayor inversión en dispositivos, sistemas de adquisición y consumo energético. Además, la *sincronización* de múltiples sensores introduce una complejidad adicional, especialmente cuando las señales provienen de diferentes fuentes con tasas de muestreo distintas, lo que exige una alineación temporal adecuada. También debe considerarse la *incomodidad para el paciente*, ya que la incorporación de varios sensores puede generar mayor estrés o interferencia, afectando parámetros fisiológicos como el ritmo respiratorio. Finalmente, el manejo de múltiples señales implica una *mayor complejidad* en el procesamiento de datos, requiriendo mayor capacidad computacional y el uso de algoritmos de fusión para integrar adecuadamente la información proveniente de cada sensor. 
 
-### CONCLUSIONES
+- **Determine semejanzas y diferencias (si las hay) entre la frecuencia y relación entre inhalaciones y exhalaciones de un individuo sano bajo condiciones de reposo y durante tareas de verbalización.**
 
+En ambas condiciones se mantiene el mismo principio fisiológico; Cada ciclo respiratorio está compuesto por una inhalación seguida de una exhalación, y el proceso sigue siendo rítmico y repetitivo. Además, en los dos casos la frecuencia respiratoria obtenida se encuentra dentro de rangos fisiológicos normales para un adulto sano.
+
+Sin embargo, sí se observan diferencias claras tanto en la frecuencia como en la relación entre inhalación y exhalación.
+
+La inhalación se vuelve más rápida y profunda, mientras que la exhalación se prolonga, ya que el aire se utiliza de forma controlada para producir la voz. Esto hace que la señal sea menos simétrica y más irregular en comparación con el reposo.
+
+- **¿Cuáles serían las ventajas y desventajas de emplear múltiples sensores para el monitoreo del proceso respiratorio? ¿Cuáles podrían ser las razones?**
+
+El sistema desarrollado durante la práctica permite monitorear el patrón respiratorio y estimar la frecuencia respiratoria de manera no invasiva y en tiempo real. 
+Sin embargo, presenta varias limitaciones importantes si se piensa en la detección de patologías respiratorias. En primer lugar, el sensor FSR mide cambios de presión mecánica asociados a la expansión torácica, pero no mide directamente variables clínicas más precisas como el flujo aéreo, el volumen pulmonar o la saturación de oxígeno. Por lo tanto, la información obtenida es indirecta.
+
+En segundo lugar, la señal depende en gran medida de la correcta colocación del sensor y del ajuste del cinturón. Movimientos corporales, cambios de postura o tensión excesiva pueden introducir ruido o alterar la medición. Tampoco existe una calibración estandarizada que permita relacionar el voltaje medido con valores absolutos de volumen respiratorio.
+### CONCLUSIONES
+El sistema desarrollado permitió identificar cambios en el patrón y la frecuencia respiratoria entre reposo y verbalización, demostrando que la respiración se adapta según la actividad realizada.
+
+La frecuencia respiratoria se evidenció como una variable clave para detectar posibles anomalías, ya que sus alteraciones pueden indicar desbalances fisiológicos.
+
+No obstante, el patrón respiratorio y la relación entre inhalación y exhalación también son importantes, ya que las alteraciones no solo modifican la frecuencia sino la dinámica del ciclo respiratorio.
+
+En conjunto, estas variables permiten un monitoreo básico efectivo, aunque para aplicaciones clínicas sería necesario medir directamente flujo o volumen pulmonar para mayor precisión.
 # REFERENCIAS:
 
 - https://www.nhlbi.nih.gov/es/salud/pulmones/beneficios
