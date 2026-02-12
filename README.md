@@ -291,7 +291,7 @@ A continuación, se aplica un filtro Butterworth de cuarto orden tipo pasabanda,
 
 Una vez filtrada, la señal se analiza en el dominio de frecuencia mediante la Transformada de Fourier, considerando solo la mitad positiva del espectro, ya que el FFT es simétrico. La frecuencia respiratoria dominante se determina buscando la amplitud máxima en el espectro. Esta frecuencia se multiplica por 60 para convertirla de Hz a respiraciones por minuto (RPM).
 
-Finalmente, se grafican tanto las señales filtradas en el tiempo como sus espectros de frecuencia para cada condición, permitiendo visualizar cómo varía la respiración entre reposo y hablando.
+Finalmente, se grafican tanto las señales filtradas en el tiempo como sus espectros de frecuencia para cada condición, permitiendo visualizar cómo varía la respiración entre reposo y hablando. 
 
 <div align="center">
 <img width="500" height="600" alt="Captura de pantalla 2026-02-11 214209" src="https://github.com/user-attachments/assets/e8ed05ea-0978-42c6-8aef-79ce63c5bd06" />
