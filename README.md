@@ -190,14 +190,12 @@ clear
 close all
 clc
 
+fc_low = 0.15;  
+fc_high = 0.33;  
+orden = 4;       
 
-fc_low = 0.01;  
-fc_high = 0.5;  
-orden = 4;      
-
-%% Señal respiratoria en reposo
+%% En reposo
 x = load('senal_respiratoria_reposo.mat');
-
 t = x.tiempo(:);
 v = x.voltaje(:);
 
@@ -206,10 +204,8 @@ t = t(1:N);
 v = v(1:N);
 
 fs = 1/(t(2)-t(1));
-
 Wn = [fc_low fc_high]/(fs/2); 
 [b, a] = butter(orden, Wn, 'bandpass');
-
 v_f = filtfilt(b, a, v);
 
 V = fft(v_f)/N;
@@ -218,32 +214,34 @@ f = (0:length(V)-1)*(fs/N);
 
 figure
 subplot(2,1,1)
-plot(t, v_f, 'g', 'LineWidth', 1.5)
+plot(t, v, 'g', 'LineWidth', 1.5)
 xlabel('Tiempo (s)')
 ylabel('Voltaje')
-title('Reposo - Señal filtrada en el tiempo')
+title('Reposo - Señal filtrada')
 grid on
 
 subplot(2,1,2)
 plot(f, V, 'g', 'LineWidth', 1.5)
-xlim([0 0.5])
+xlim([0 1])
 xlabel('Frecuencia (Hz)')
 ylabel('|X(f)|')
-title('Transformada de Fourier - Reposo filtrada')
-grid 
+title('Transformada de Fourier - Reposo')
+grid on
 
-vm = V(1);            
-for i = 1:length(V)         
+vm = V(1);
+idx_max = 1;
+for i = 1:length(V)
     if V(i) > vm
-        vm = V(i);    
+        vm = V(i);
+        idx_max = i;
     end
 end
 
-disp(['La frecuencia respiratoria en reposo es: ', num2str(vm*60), ' rpm'])
+f_resp = f(idx_max);
+disp(['Frecuencia dominante (reposo): ', num2str(f_resp), ' Hz, RPM: ', num2str(f_resp*60)])
 
-%% Señal respiratoria hablando
+%% Hablando
 y = load('senal_respiratoria_Hablando.mat');
-
 t = y.tiempo(:);
 v = y.voltaje(:);
 
@@ -252,7 +250,6 @@ t = t(1:N);
 v = v(1:N);
 
 fs = 1/(t(2)-t(1));
-
 v_f = filtfilt(b, a, v);
 
 V = fft(v_f)/N;
@@ -261,29 +258,32 @@ f = (0:length(V)-1)*(fs/N);
 
 figure
 subplot(2,1,1)
-plot(t, v_f, 'm', 'LineWidth', 1.5)
+plot(t, v, 'm', 'LineWidth', 1.5)
 xlabel('Tiempo (s)')
 ylabel('Voltaje')
-title('Hablando - Señal filtrada en el tiempo')
+title('Hablando - Señal filtrada')
 grid on
 
 subplot(2,1,2)
 plot(f, V, 'm', 'LineWidth', 1.5)
-xlim([0 0.5])
+xlim([0 1])
 xlabel('Frecuencia (Hz)')
 ylabel('|X(f)|')
-title('Transformada de Fourier - Hablando filtrada')
+title('Transformada de Fourier - Hablando')
 grid on
 
-
-vm = V(1);            
-for i = 1:length(V)         
+vm = V(1);
+idx_max = 1;
+for i = 1:length(V)
     if V(i) > vm
-        vm = V(i);    
+        vm = V(i);
+        idx_max = i;
     end
 end
 
-disp(['La frecuencia respiratoria hablando es: ', num2str(vm*60), ' rpm'])
+f_resp = f(idx_max);
+disp(['Frecuencia dominante (hablando): ', num2str(f_resp), ' Hz, RPM: ', num2str(f_resp*60)])
+
 ```
 El código realiza el análisis de señales respiratorias en dos condiciones; reposo y hablando. Primero, se cargan las señales previamente guardadas, que incluyen el tiempo (t) y el voltaje (v). y se calcula la frecuencia de muestreo fs.
 
