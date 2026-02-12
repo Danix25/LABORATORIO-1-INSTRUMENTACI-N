@@ -309,6 +309,9 @@ $$
 \text{Frecuencia respiratoria (Hablando)} = 12.43\,\text{rpm}
 $$
 
+Anteriormente se mostraron ejemplos de las señales respiratorias analizadas y se calculó la frecuencia respiratoria para cada condición. En reposo, se obtuvo un valor ligeramente inferior al promedio típico, pero aún coherente, lo que puede indicar un estado de bastante relajación. Esto refleja que el cuerpo se encuentra en calma, con respiraciones lentas y regulares, propias de un momento de descanso.
+
+En el caso de hablando, la señal presenta un patrón distinto, ya no se asemeja a una onda, si no que se observa que la señal sube rápidamente y baja de manera más gradual, lo que refleja con claridad el proceso de la respiración al hablar o leer en voz alta. Este comportamiento es consistente con la necesidad de tomar aire de forma más rápida y controlar la exhalación mientras se produce la voz, mostrando cómo la respiración se adapta a la actividad de comunicación.
 
 
 ## Parte C
