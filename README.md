@@ -165,9 +165,18 @@ save("senal_respiratoria_Hablando.mat","tiempo","voltaje");
 close(2)
 ```
 El código recibe un flujo de datos mediante comunicación serial desde una placa ESP32 a través del puerto COM4. Primero le pide al usuario que ingrese el tiempo de medición deseado; después de eso, abre una gráfica donde se pueden observar los datos en tiempo real mientras se adquiere la señal. Durante el bucle de adquisición se leen los valores enviados por el ADC en bits y se convierten a voltaje usando la relación entre el valor leído, el voltaje de referencia y la resolución del ADC, por lo que la gráfica que se muestra corresponde a voltaje vs tiempo. 
-\[
+
+$V = \frac{\text{bits} \cdot V_{ref}}{ADC}$
+
+$$
 V = \frac{\text{bits} \cdot V_{ref}}{ADC}
-\]
+$$
+
+$$
+V = \frac{\text{bits} \cdot 5}{4095}
+$$
+
+
 
 Al finalizar la primera medición, realizada con el sujeto en reposo, los datos se guardan en un archivo llamado senal_respiratoria_reposo.mat. Luego el programa vuelve a solicitar el tiempo de medición para repetir el proceso, esta vez con el sujeto hablando, y finalmente guarda la señal en el archivo senal_respiratoria_hablando.mat.
 
