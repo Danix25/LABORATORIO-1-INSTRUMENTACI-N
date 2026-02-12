@@ -356,7 +356,11 @@ $$
 
 Anteriormente se mostraron ejemplos de las señales respiratorias analizadas y se calculó la frecuencia respiratoria para cada condición. En reposo, se obtuvo un valor ligeramente inferior al promedio típico, pero aún coherente, lo que puede indicar un estado de bastante relajación. Esto refleja que el cuerpo se encuentra en calma, con respiraciones lentas y regulares, propias de un momento de descanso.
 
-En el caso de hablando, la señal presenta un patrón distinto, ya no se asemeja a una onda, si no que se observa que la señal sube rápidamente y baja de manera más gradual, lo que refleja con claridad el proceso de la respiración al hablar o leer en voz alta. Este comportamiento es consistente con la necesidad de tomar aire de forma más rápida y controlar la exhalación mientras se produce la voz, mostrando cómo la respiración se adapta a la actividad de comunicación.
+En el caso de hablando, la señal presenta un patrón distinto, ya no se asemeja a una onda, si no que se observa que la señal sube rápidamente y baja de manera más gradual, lo que refleja con claridad el proceso de la respiración al hablar o leer en voz alta. Este comportamiento es consistente con la necesidad de tomar aire de forma más rápida y controlar la exhalación mientras se produce la voz. 
+
+A pesar del filtrado aplicado, las gráficas todavía presentan algo de ruido de baja frecuencia. Aunque el filtro logra reducir una parte importante, no puede eliminarlo completamente sin afectar la información útil de la señal original.
+
+Este ruido probablemente se debe al acoplamiento del sensor o al cableado utilizado. El uso de cables tipo jumper puede introducir interferencias, ya que son más propensos a captar ruido externo. Esto podría estar influyendo en que la frecuencia respiratoria calculada sea ligeramente menor a la real.
 
 
 ## Parte C
