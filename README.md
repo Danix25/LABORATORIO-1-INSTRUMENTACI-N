@@ -181,6 +181,7 @@ Al finalizar la primera medición, realizada con el sujeto en reposo, los datos 
   <img src="https://github.com/user-attachments/assets/624def63-3031-4abf-8d56-f8a2abc958e9" width="500" />
 </div>
 
+En la imagen anterior se puede ver cómo se realiza la adquisición de datos en tiempo real para la señal respiratoria en reposo. Además, se puede notar un comportamiento ondulatorio característico de la respiración.
 
 
 
