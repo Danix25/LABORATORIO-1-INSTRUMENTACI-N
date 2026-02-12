@@ -334,7 +334,7 @@ El código realiza el análisis de señales respiratorias en dos condiciones; re
 
 A continuación, se aplica un filtro Butterworth de cuarto orden tipo pasabanda, con frecuencias de corte de 0,15 Hz a 0,33 Hz, que corresponden al rango típico de la respiración humana. Esto permite eliminar componentes de ruido fuera del rango respiratorio y aislar la señal de interés.
 
-Una vez filtrada, la señal se analiza en el dominio de frecuencia mediante la Transformada de Fourier, considerando solo la mitad positiva del espectro, ya que el FFT es simétrico. La frecuencia respiratoria dominante se determina buscando la amplitud máxima en el espectro. Esta frecuencia se multiplica por 60 para convertirla de Hz a respiraciones por minuto (RPM).
+Una vez filtrada, la señal se analiza en el dominio de frecuencia mediante la Transformada de Fourier. La frecuencia respiratoria dominante se determina buscando la amplitud máxima en el espectro. Esta frecuencia se multiplica por 60 para convertirla de Hz a respiraciones por minuto (RPM).
 
 Finalmente, se grafican tanto las señales filtradas en el tiempo como sus espectros de frecuencia para cada condición, permitiendo visualizar cómo varía la respiración entre reposo y hablando. 
 
