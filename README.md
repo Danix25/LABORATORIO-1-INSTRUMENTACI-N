@@ -302,11 +302,11 @@ Finalmente, se grafican tanto las señales filtradas en el tiempo como sus espec
 </div>
 
 $$
-Frecuencia respiratoria (Reposo) = 10.24 rpm
+\text{Frecuencia respiratoria (Reposo)} = 10.24\,\text{rpm}
 $$
 
 $$
-Frecuencia respiratoria (Hablando) = 12.43 rpm
+\text{Frecuencia respiratoria (Hablando)} = 12.43\,\text{rpm}
 $$
 
 
