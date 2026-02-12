@@ -89,7 +89,7 @@ $$
 \text{Si } R_{FSR} \text{ disminuye} \Rightarrow V_{out} \text{ aumenta}
 $$
 
-Posteriormente, el voltaje de salida del divisor de voltaje es medido por el ADC de un microcontrolador, específicamente un ESP32. Este microcontrolador, mediante comunicación serial, transmite los datos hacia un PC, donde se realiza la adquisición y procesamiento de la señal utilizando MATLAB.
+Posteriormente, el voltaje de salida del divisor de voltaje es medido por el ADC de un microcontrolador, específicamente un ESP32. Este microcontrolador, mediante comunicación serial, transmite los datos hacia un PC, donde se realiza la adquisición y procesamiento de las señales utilizando MATLAB.
 ```cpp
 void setup() {
   Serial.begin(115200);
