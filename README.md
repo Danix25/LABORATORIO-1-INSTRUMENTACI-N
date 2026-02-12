@@ -1,7 +1,7 @@
 # Monitoreo del patrón y frecuencia respiratoria
 
-# Parte A
-# PROCESO RESPIRATORIO
+## Parte A
+### PROCESO RESPIRATORIO
 
 La respiración se define como el proceso mediante el cual se lleva a cabo el intercambio gaseoso a nivel celular, permitiendo la captación de oxígeno y la eliminación de dióxido de carbono. Desde el punto de vista fisiológico, este proceso comprende dos fases mecánicas principales: inhalación y exhalación.
 
@@ -51,7 +51,7 @@ El volumen en el proceso de la respiración es la cantidad de aire que fluye en 
 - **Volumen de reserva espiratoria:** Volumen adicional de aire que puede exhalarse adicionalmente despues de una exhalación normal.
 - **Volumen residual:** Volumen de aire que permanece en los pulmones después de una exhalación máxima.
 
-# MONTAJE EXPERIMENTAL
+### MONTAJE EXPERIMENTAL
  **Sensor implementado (FSR402):**
 
 Para la realización de la práctica y la adquisición de la señal respiratoria, se empleó una galga extensiométrica FSR402 (Force Sensing Resistor), Este dispositivo corresponde a un sensor pasivo de dos terminales cuya resistencia eléctrica disminuye conforme aumenta la fuerza aplicada sobre su área activa. Esto permite utilizar el sensor para la detección de variaciones de presión o fuerza mecánica, como las generadas durante el movimiento torácico asociado al proceso respiratorio. El FSR402 presenta un umbral de activación aproximado de 0,2 N y un rango de sensibilidad comprendido entre 0,2 N y 20 N, lo que lo hace adecuado para registrar cambios de fuerza dentro de ese intervalo operativo.
@@ -69,7 +69,8 @@ Este sensor será adaptado al sujeto de prueba mediante el uso de un cinturón c
 
 
 
-# Parte B
+## Parte B
+### Adquisición
 
 El código recibe un flujo de datos mediante comunicación serial desde una placa ESP32 a través del puerto COM4. Primero le pide al usuario que ingrese el tiempo de medición deseado; después de eso, abre una gráfica donde se pueden observar los datos en tiempo real mientras se adquiere la señal. Durante el bucle de adquisición se leen los valores enviados por el ADC en bits y se convierten a voltaje usando la relación entre el valor leído, el voltaje de referencia y la resolución del ADC, por lo que la gráfica que se muestra corresponde a voltaje vs tiempo.
 
@@ -176,7 +177,7 @@ close(2)
 ```
 Al finalizar la primera medición, realizada con el sujeto en reposo, los datos se guardan en un archivo llamado senal_respiratoria_reposo.mat. Luego el programa vuelve a solicitar el tiempo de medición para repetir el proceso, esta vez con el sujeto hablando, y finalmente guarda la señal en el archivo senal_respiratoria_hablando.mat.
 
-# Parte C
+## Parte C
 **Procedimiento de la práctica:**
 
 1. *Investigación teórica:* En primer lugar, se investigaron como es el proceso de respiración y cuales son las variables que influyen en él.
