@@ -51,22 +51,42 @@ El volumen en el proceso de la respiración es la cantidad de aire que fluye en 
 - **Volumen de reserva espiratoria:** Volumen adicional de aire que puede exhalarse adicionalmente despues de una exhalación normal.
 - **Volumen residual:** Volumen de aire que permanece en los pulmones después de una exhalación máxima.
 
-### MONTAJE EXPERIMENTAL
+### MONTAJE
  **Sensor implementado (FSR402):**
 
-Para la realización de la práctica y la adquisición de la señal respiratoria, se empleó una galga extensiométrica FSR402 (Force Sensing Resistor), Este dispositivo corresponde a un sensor pasivo de dos terminales cuya resistencia eléctrica disminuye conforme aumenta la fuerza aplicada sobre su área activa. Esto permite utilizar el sensor para la detección de variaciones de presión o fuerza mecánica, como las generadas durante el movimiento torácico asociado al proceso respiratorio. El FSR402 presenta un umbral de activación aproximado de 0,2 N y un rango de sensibilidad comprendido entre 0,2 N y 20 N, lo que lo hace adecuado para registrar cambios de fuerza dentro de ese intervalo operativo.
+Para la realización de la práctica y la adquisición de la señal respiratoria, se empleó el sensor resistivo FSR402 (Force Sensitive Resistor), Este dispositivo corresponde a un sensor activo de dos terminales cuya resistencia eléctrica disminuye conforme aumenta la fuerza aplicada sobre su área activa. Esto permite utilizar el sensor para la detección de variaciones de presión o fuerza mecánica, como las generadas durante el movimiento torácico asociado al proceso respiratorio. El FSR402 presenta un umbral de activación aproximado de 0,2 N y un rango de sensibilidad comprendido entre 0,2 N y 20 N, lo que lo hace adecuado para registrar cambios de fuerza dentro de ese intervalo operativo.
 
 <div align="center">
 <img width="300" height="100" alt="image" src="https://github.com/user-attachments/assets/137f464f-ea49-474b-b991-c82ec61eb373" />
 <img width="400" height="100" alt="image" src="https://github.com/user-attachments/assets/05fbc9c4-d8f0-4bbd-ae4e-3b1c0fe507f5" />
 </div>
 
-Este sensor será adaptado al sujeto de prueba mediante el uso de un cinturón colocado al rededor del tórax. El FSR será fijado sobre dihco cinturón, de manera que las variaciones mecánicas asociadas a la expansión y contracción torácica durante el ciclo respiratorio generen cambios en la fuerza aplicada sobre su superficie activa. A medida que el sujeto inhale y exhale, estas variaciones serán registradas por el sensor, permitiendo la adquisición y posterior representación gráfica de la señal respiratoria correspondiente.
+Este sensor será adaptado al sujeto de prueba mediante el uso de un cinturón colocado al rededor del tórax. El FSR será fijado sobre dichoo cinturón, de manera que las variaciones mecánicas asociadas a la expansión y contracción torácica durante el ciclo respiratorio generen cambios en la fuerza aplicada sobre su superficie activa. A medida que el sujeto inhale y exhale, estas variaciones serán registradas por el sensor, permitiendo la adquisición y posterior representación gráfica de la señal respiratoria correspondiente.
 
 <div align="center">
 <img width="400" height="360" alt="image" src="https://github.com/user-attachments/assets/7aea12a1-7c06-4acb-bcd6-213238a7fb1f" />
 </div>
 
+El sistema de acondicionamiento y digitalización consta básicamente de un circuito divisor de voltaje, donde el FSR actúa como resistencia de entrada y la resistencia de salida es una resistencia fija de 3 kΩ (RFout). Además, se incluye otra resistencia en serie de 300 Ω (Rfin) antes del FSR, con el fin de limitar ligeramente el voltaje de salida.
+
+Cuando se aplica presión sobre el sensor, la resistencia del FSR disminuye, lo que provoca un aumento del voltaje en la salida. Por el contrario, al reducirse la presión, la resistencia del sensor aumenta significativamente, haciendo que el voltaje de salida disminuya prácticamente a cero.
+
+El voltaje de salida del divisor de voltaje se calcula como:
+
+$$
+V_{out} = V_{cc} \cdot \frac{R_{Fout}}{R_{Fout} + R_{FSR} + R_{fin}}
+$$
+
+Donde:
+
+- \(R_{FSR}\) es la resistencia del sensor.
+- \(R_{Fout} = 3\,k\Omega\) es la resistencia fija de salida.
+- \(R_{fin} = 300\,\Omega\) es la resistencia en serie para limitar la corriente.
+
+**Comportamiento:**
+
+- Si \(R_{FSR}\) aumenta → \(V_{out}\) disminuye.
+- Si \(R_{FSR}\) disminuye → \(V_{out}\) aumenta.
 
 
 ## Parte B
