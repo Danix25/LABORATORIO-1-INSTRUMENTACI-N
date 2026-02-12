@@ -185,6 +185,109 @@ En la imagen anterior se puede ver cómo se realiza la adquisición de datos en 
 
 ### Procesamiento
 
+```matlab
+clear
+close all
+clc
+
+
+fc_low = 0.01;  
+fc_high = 0.5;  
+orden = 4;      
+
+%% Señal respiratoria en reposo
+x = load('senal_respiratoria_reposo.mat');
+
+t = x.tiempo(:);
+v = x.voltaje(:);
+
+N = min(length(t), length(v));
+t = t(1:N);
+v = v(1:N);
+
+fs = 1/(t(2)-t(1));
+
+Wn = [fc_low fc_high]/(fs/2); 
+[b, a] = butter(orden, Wn, 'bandpass');
+
+v_f = filtfilt(b, a, v);
+
+V = fft(v_f)/N;
+V = abs(V(1:floor(N/2)));
+f = (0:length(V)-1)*(fs/N);
+
+figure
+subplot(2,1,1)
+plot(t, v_f, 'g', 'LineWidth', 1.5)
+xlabel('Tiempo (s)')
+ylabel('Voltaje')
+title('Reposo - Señal filtrada en el tiempo')
+grid on
+
+subplot(2,1,2)
+plot(f, V, 'g', 'LineWidth', 1.5)
+xlim([0 0.5])
+xlabel('Frecuencia (Hz)')
+ylabel('|X(f)|')
+title('Transformada de Fourier - Reposo filtrada')
+grid 
+
+vm = V(1);            
+for i = 1:length(V)         
+    if V(i) > vm
+        vm = V(i);    
+    end
+end
+
+disp(['La frecuencia respiratoria en reposo es: ', num2str(vm*60), ' rpm'])
+
+%% Señal respiratoria hablando
+y = load('senal_respiratoria_Hablando.mat');
+
+t = y.tiempo(:);
+v = y.voltaje(:);
+
+N = min(length(t), length(v));
+t = t(1:N);
+v = v(1:N);
+
+fs = 1/(t(2)-t(1));
+
+v_f = filtfilt(b, a, v);
+
+V = fft(v_f)/N;
+V = abs(V(1:floor(N/2)));
+f = (0:length(V)-1)*(fs/N);
+
+figure
+subplot(2,1,1)
+plot(t, v_f, 'm', 'LineWidth', 1.5)
+xlabel('Tiempo (s)')
+ylabel('Voltaje')
+title('Hablando - Señal filtrada en el tiempo')
+grid on
+
+subplot(2,1,2)
+plot(f, V, 'm', 'LineWidth', 1.5)
+xlim([0 0.5])
+xlabel('Frecuencia (Hz)')
+ylabel('|X(f)|')
+title('Transformada de Fourier - Hablando filtrada')
+grid on
+
+
+vm = V(1);            
+for i = 1:length(V)         
+    if V(i) > vm
+        vm = V(i);    
+    end
+end
+
+disp(['La frecuencia respiratoria hablando es: ', num2str(vm*60), ' rpm'])
+```
+
+
+
 
 
 ## Parte C
