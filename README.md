@@ -163,7 +163,7 @@ end
 
 save("senal_respiratoria_Hablando.mat","tiempo","voltaje");
 close(2)
-
+---
 
 # Parte C
 **Procedimiento de la práctica:**
