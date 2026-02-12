@@ -355,7 +355,7 @@ En el caso de hablando, la señal presenta un patrón distinto, ya no se asemeja
 
 
 ## Parte C
-**Procedimiento de la práctica:**
+###Procedimiento de la práctica:
 
 1. *Investigación teórica:* En primer lugar, se investigaron como es el proceso de respiración y cuales son las variables que influyen en él.
 2. *Elección de sensor:* Luego de conocer las variables que influyen en el proceso de respiración, se conversó entre los integrantes del grupo que sensor utilizar para el desarrollo de la práctica, teniendo como principal objetivo el capturar la señal respiratoria de una persona.
