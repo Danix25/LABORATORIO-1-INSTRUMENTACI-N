@@ -351,7 +351,7 @@ $$
 </div>
 
 $$
-\text{Frecuencia respiratoria (Hablando)} = 12.43\,\text{rpm}
+\text{Frecuencia respiratoria (Hablando)} = 8.31 \,\text{rpm}
 $$
 
 Anteriormente se mostraron ejemplos de las señales respiratorias analizadas y se calculó la frecuencia respiratoria para cada condición. En reposo, se obtuvo un valor ligeramente inferior al promedio típico, pero aún coherente, lo que puede indicar un estado de bastante relajación. Esto refleja que el cuerpo se encuentra en calma, con respiraciones lentas y regulares, propias de un momento de descanso.
