@@ -1,5 +1,9 @@
 # Monitoreo del patrón y frecuencia respiratoria
 
+Samuel Peña Rojas
+Vanessa Vera Caro
+Daniel Castillo
+
 ## Parte A
 ### PROCESO RESPIRATORIO
 
