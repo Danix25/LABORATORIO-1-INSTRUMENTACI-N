@@ -64,7 +64,7 @@ Para la realización de la práctica y la adquisición de la señal respiratoria
 Este sensor será adaptado al sujeto de prueba mediante el uso de un cinturón colocado al rededor del tórax. El FSR será fijado sobre dihco cinturón, de manera que las variaciones mecánicas asociadas a la expansión y contracción torácica durante el ciclo respiratorio generen cambios en la fuerza aplicada sobre su superficie activa. A medida que el sujeto inhale y exhale, estas variaciones serán registradas por el sensor, permitiendo la adquisición y posterior representación gráfica de la señal respiratoria correspondiente.
 
 <div align="center">
-<img width="600" height="360" alt="image" src="https://github.com/user-attachments/assets/7aea12a1-7c06-4acb-bcd6-213238a7fb1f" />
+<img width="400" height="360" alt="image" src="https://github.com/user-attachments/assets/7aea12a1-7c06-4acb-bcd6-213238a7fb1f" />
 </div>
 
 
