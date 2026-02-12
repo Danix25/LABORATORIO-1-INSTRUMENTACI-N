@@ -78,7 +78,7 @@ V_{out} = V_{cc} \cdot \frac{R_{Fout}}{R_{Fout} + R_{FSR} + R_{fin}}
 $$
 
 $$
-\text{Rango de resistencias: } R_{FSR}, R_{Fout} = 3\,k\Omega, R_{fin} = 300\,\Omega
+\text{Donde } R_{Fout} = 3\,k\Omega, R_{fin} = 300\,\Omega
 $$
 
 $$
