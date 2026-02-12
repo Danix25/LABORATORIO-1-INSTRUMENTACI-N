@@ -103,6 +103,11 @@ void loop() {
   delay(10);
 }
 ```
+<div align="center">
+<img width="1150" height="667" alt="image" src="https://github.com/user-attachments/assets/a81954af-127a-4d3e-a223-b332c35dd01c" />
+</div>
+
+Anteriormente, se verificó el correcto funcionamiento de la comunicación serial utilizando el Serial Plotter de Arduino, confirmando que los datos del sensor se transmiten adecuadamente.
 
 ## Parte B
 ### Adquisición
