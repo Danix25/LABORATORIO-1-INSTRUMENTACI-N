@@ -177,6 +177,10 @@ close(2)
 ```
 Al finalizar la primera medición, realizada con el sujeto en reposo, los datos se guardan en un archivo llamado senal_respiratoria_reposo.mat. Luego el programa vuelve a solicitar el tiempo de medición para repetir el proceso, esta vez con el sujeto hablando, y finalmente guarda la señal en el archivo senal_respiratoria_hablando.mat.
 
+<img src="https://github.com/user-attachments/assets/624def63-3031-4abf-8d56-f8a2abc958e9" width="800" />
+
+
+
 ## Parte C
 **Procedimiento de la práctica:**
 
