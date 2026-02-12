@@ -69,7 +69,7 @@ Este sensor será adaptado al sujeto de prueba mediante el uso de un cinturón c
 
 
 
-## Parte B
+# Parte B
 
 
 # Parte C
