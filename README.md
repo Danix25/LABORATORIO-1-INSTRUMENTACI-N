@@ -183,6 +183,8 @@ Al finalizar la primera medición, realizada con el sujeto en reposo, los datos 
 
 En la imagen anterior se puede ver cómo se realiza la adquisición de datos en tiempo real para la señal respiratoria en reposo. Además, se puede notar un comportamiento ondulatorio característico de la respiración.
 
+### Procesamiento
+
 
 
 ## Parte C
